@@ -29,7 +29,6 @@ const Projects = () => {
     <div ref={containerRef} className="relative w-full border-zinc-700 border-t-2">
       <div className="sticky top-0 z-50    h-28 bg-[#1F1F23] text-[#F4F4F5] flex items-center pl-16 text-6xl  font-semibold tracking-tighter">
        
-        PROJECTS
       </div>
 
       {panelsData.map((props, i) => (
