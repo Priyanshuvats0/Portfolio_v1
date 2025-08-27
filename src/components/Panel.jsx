@@ -11,12 +11,12 @@ const Panel = ({ leftBg, rightBg, leftImage, rightImage, rounded, textContent })
   );
 
   return (
-    <section className="z-10 panel h-screen flex items-center justify-center bg-[#18181B] ">
-      <div className="h-full w-[92%] flex">
+    <section className="z-10 panel h-screen flex items-center justify-center bg-[#1F1F23] ">
+      <div className="h-full w-[92%] flex ">
         <div
-          className={`w-1/2 h-full overflow-hidden flex ${
+          className={`w-1/2 h-full  overflow-hidden flex ${
             leftImage ? leftBg || "" : "bg-black"
-          } ${rounded ? "rounded-l-[2vw]" : ""}`}
+          } `}
         >
           {leftImage ? (
             <img src={leftImage} alt="left" className="w-full h-full object-cover" />
@@ -25,9 +25,9 @@ const Panel = ({ leftBg, rightBg, leftImage, rightImage, rounded, textContent })
           )}
         </div>
         <div
-          className={`w-1/2 h-full overflow-hidden flex ${
+          className={`w-1/2 h-full overflow-hidden  flex ${
             rightImage ? rightBg || "" : "bg-black"
-          } ${rounded ? "rounded-r-[2vw]" : ""}`}
+          } `}
         >
           {rightImage ? (
             <img src={rightImage} alt="right" className="w-full h-full object-cover" />

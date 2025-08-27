@@ -10,7 +10,7 @@ const panelsData = [
       },
     },
     {
-      leftBg: "bg-black",
+      leftBg: "bg-[#191919]",
       rightBg: "bg-white",
       leftImage: "Images/2.avif",
       textContent: {
@@ -30,7 +30,7 @@ const panelsData = [
      
     },
     {
-      leftBg: "bg-black",
+      leftBg: "bg-[#191919]",
       rightBg: "bg-white",
       leftImage: "Images/4.avif",
       textContent: {
