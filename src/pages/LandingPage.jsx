@@ -24,13 +24,13 @@ const LandingPage = () => {
           <img src="/myimg/gibli_black-new.png" alt="/" className="scale-110 rounded-full bg-[#18181B] shadow-[0_0_40px_#22D3EE] relative z-10" />
       
           </div> */}
-          <div className="h-72 w-80  border-t-2 border-x-2 rounded-md relative flex justify-center items-center overflow-hidden">
+          <div className="h-72 w-80  border-2 border-x-2  rounded-full relative flex justify-center items-center overflow-hidden">
   {/* Glow background */}
  <motion.div 
   initial={{ opacity: 0.2, scale: 0.9 }}
   animate={{ opacity: [0.2, 0.4, 0.2], scale: [0.9, 1.05, 0.9] }}
   transition={{ duration: 4, repeat: Infinity }}
-  className="absolute w-72 h-72 rounded-full bg-[#ffff] blur-3xl mt-10"
+  className="absolute w-72 h-72 rounded-full bg-amber-500 blur-3xl mt-10"
 />
 
   {/* Your image */}
