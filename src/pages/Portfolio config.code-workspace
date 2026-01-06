@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../.."
+		},
+		{
+			"path": "../../../../Crave"
+		},
+		{
+			"path": "../../../../GSAP/my-react-app"
+		}
+	],
+	"settings": {}
+}

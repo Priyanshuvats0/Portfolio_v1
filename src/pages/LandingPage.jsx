@@ -33,7 +33,7 @@ const LandingPage = () => {
   className="absolute w-72 h-72 rounded-full bg-amber-500 blur-3xl mt-10"
 />
 
-  {/* Your image */}
+ 
   <img 
     src="/myimg/gibli_black-new.png" 
     alt="/" 
