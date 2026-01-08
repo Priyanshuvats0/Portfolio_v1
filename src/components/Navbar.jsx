@@ -31,7 +31,7 @@ const Navbar = () => {
         <span className='text-3xl font-bold'>VATS</span>
       </div>
       <div className='links flex gap-10'>
-        {["Services", "Contact", "About Us", "Insights"].map((item, index) => (
+        {["Projects", "Contact", "About Me","Tech Stack"].map((item, index) => (
           <a key={index} href="#" className='text-md capitalize font-semibold'>
             {item}
           </a>
