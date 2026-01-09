@@ -12,7 +12,7 @@ const Panel = ({ leftBg, rightBg, leftImage, rightImage, textContent }) => {
 
   return (
    
-    <section className="panel h-full w-full flex items-center justify-center bg-[#1F1F23]">
+    <section className="panel h-full w-full flex items-center justify-center bg-zinc-900">
       <div className="h-full w-[92%] flex">
         <div className={`w-1/2 h-full overflow-hidden flex ${leftImage ? leftBg || "" : "bg-black"}`}>
           {leftImage ? (

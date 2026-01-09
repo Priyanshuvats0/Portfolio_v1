@@ -31,13 +31,12 @@ const Projects = () => {
   }, []);
 
   return (
-    <div ref={containerRef} className="relative w-full bg-[#1F1F23]">
-      {/* Header */}
+    <div ref={containerRef} className="relative w-full bg-zinc-900 ">
       <div 
         ref={headerRef}
-        className="sticky top-0 z-50 h-20 md:h-28 bg-[#1F1F23] text-[#F4F4F5] flex items-center pl-6 md:pl-16 text-4xl md:text-6xl font-semibold tracking-tighter border-b border-zinc-700"
+        className="sticky top-0 z-50 h-20  md:h-28 bg-zinc-900 text-[#F4F4F5] flex items-center pl-6 md:pl-16 text-4xl md:text-6xl font-semibold   border-zinc-700"
       >
-        PROJECT
+        PROJECTS
       </div>
 
       <div className="flex flex-col">

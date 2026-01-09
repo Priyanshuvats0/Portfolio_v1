@@ -8,7 +8,7 @@ import TechStack from './TechStack';
 const Home = () => {
     const locomotiveScroll = new LocomotiveScroll();
   return (
-    <div className='w-full min-h-screen bg-zinc-900 text-white'>
+    <div className='w-full min-h-screen bg-zinc-900 text-white '>
         <Navbar/>
         <LandingPage/>
         <Projects/>
