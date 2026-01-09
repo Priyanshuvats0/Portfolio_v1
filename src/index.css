@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* 1. Target EVERYTHING (wildcard *) */
+* {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* 2. Target Webkit (Chrome/Safari/Edge) */
+*::-webkit-scrollbar {
+  display: none;
+}
+
