@@ -5,6 +5,7 @@ import LocomotiveScroll from 'locomotive-scroll';
 import Projects from './Projects';
 import TechStack from './TechStack';
 import Projects_v2 from './Projects_v2';
+import Footer from './Footer';
 
 const Home = () => {
     const locomotiveScroll = new LocomotiveScroll();
@@ -14,6 +15,7 @@ const Home = () => {
         <LandingPage/>
         <Projects_v2/>
         <TechStack/>
+        <Footer/>
     </div>
   )
 }
