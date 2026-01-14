@@ -15,7 +15,6 @@ const Home = () => {
         <LandingPage/>
         <Projects_v2/>
         <TechStack/>
-        <Footer/>
     </div>
   )
 }
