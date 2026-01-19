@@ -12,10 +12,10 @@ const LandingPage = () => {
           - It adds the vertical lines at 'left-20' and 'right-20'
             to match your Tech Stack page exactly.
          ===================================================== */}
-      <div className="absolute inset-0 z-0 pointer-events-none">
+      {/* <div className="absolute inset-0 z-0 pointer-events-none">
          <div className="absolute left-6 md:left-20 top-0 bottom-0 w-[1px] bg-zinc-800"></div>
          <div className="absolute right-6 md:right-20 top-0 bottom-0 w-[1px] bg-zinc-800"></div>
-      </div>
+      </div> */}
 
       {/* =====================================================
           2. YOUR ORIGINAL CONTENT (Unchanged Layout)
